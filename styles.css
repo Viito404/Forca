@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+body {
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  background-color: #00012c;
+  text-align: center;
+  margin: 0;
+  gap: 50px;
+}
+.cabecalho {
+  align-items: center;
+}
+.letras {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  gap: 5px;
+}
+.letras button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0px 0px 7px -2px white;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.letras button:active {
+  transition: 250ms ease-in-out;
+  transform: scale(0.9);
+}
+
+.letras > button:hover{
+  
+}
+
+.btn-recomecar {
+  width: 40px;
+  height: 40px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0px 0px 7px -2px white;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-recomecar:hover {
+  transition: 250ms ease-in-out;
+  background-color: #c5c5c5;
+  cursor: not-allowed;
+}
+
+.imagem-forca {
+  width: 100px;
+  padding: 5px 5px;
+
+  border: 1px solid white;
+}
+
+.palavra-dica {
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
